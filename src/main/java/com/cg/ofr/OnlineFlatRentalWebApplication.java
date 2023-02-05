@@ -12,5 +12,5 @@ public class OnlineFlatRentalWebApplication {
 		SpringApplication.run(OnlineFlatRentalWebApplication.class, args);
 	}
 
-	//http://localhost:8080/swagger-ui.html#/
+	//http://localhost:8095/swagger-ui.html#/
 }

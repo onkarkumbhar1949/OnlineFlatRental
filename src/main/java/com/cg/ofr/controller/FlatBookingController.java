@@ -55,7 +55,7 @@ public class FlatBookingController {
 	 * 
 	 * @returns FlatBooking It returns updated details of the existed FlatBooking.
 	 * 
-	 * @PuttMapping: It is used to handle PUT type of request method
+	 * @PutMapping: It is used to handle PUT type of request method
 	 * 
 	 * @RequestBody: It maps the HttpRequest body to a transfer or domain object
 	 */

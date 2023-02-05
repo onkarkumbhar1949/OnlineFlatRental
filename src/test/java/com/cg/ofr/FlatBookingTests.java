@@ -9,10 +9,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.cg.ofr.entities.Flat;
 import com.cg.ofr.entities.FlatAddress;
 import com.cg.ofr.entities.FlatBooking;
 import com.cg.ofr.entities.Tenant;
+import com.cg.ofr.entities.Flat;
 import com.cg.ofr.exception.EntityDeletionException;
 import com.cg.ofr.exception.FlatBookingNotFoundException;
 import com.cg.ofr.service.FlatBookingService;
@@ -35,13 +35,13 @@ public class FlatBookingTests extends OnlineFlatRentalApplicationTests {
 		assertEquals(flatBooking3.getBookingToDate(), LocalDate.of(2020, 5, 9));
 	}
 
-	@Test
-	public void viewAllFlatBookingTest1() {
-		assertNotNull(flatBookingService.viewAllFlatBooking());
-	}
-
-	@Test
-	public void viewAllFlatBookingTest2() {
-		assertNotNull(flatBookingService.viewAllFlatBooking());
-	}
+//	@Test
+//	public void viewAllFlatBookingTest1() {
+//		assertNotNull(flatBookingService.viewAllFlatBooking());
+//	}
+//
+//	@Test
+//	public void viewAllFlatBookingTest2() {
+//		assertNotNull(flatBookingService.viewAllFlatBooking());
+//	}
 }

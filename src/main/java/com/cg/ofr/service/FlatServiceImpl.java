@@ -154,17 +154,7 @@ public class FlatServiceImpl implements FlatService {
 
 	}
 
-	/***************************************
-	 * Method: viewAllFlatByCost Description: To display all the flats by filtering
-	 * its cost and availability
-	 * 
-	 * @param cost         : cost of the flat
-	 * @param availability :availability of the flat(Available or Not-Available)
-	 * @returns List<Flat> It returns all the flats present in database based on the
-	 *          cost and availability
-	 * @author Kiran kumar panda Created Date 24-MARCH-2021
-	 * 
-	 *****************************************/
+	
 
 	@Override
 	public List<Flat> viewAllFlatByCost(float cost, String availability) {
